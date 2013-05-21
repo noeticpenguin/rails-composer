@@ -187,6 +187,8 @@ when "3"
     say_wizard "You are using Rails version #{Rails::VERSION::STRING} which is not supported. Try 3.1 or newer."
     raise StandardError.new "Rails #{Rails::VERSION::STRING} is not supported. Try 3.1 or newer."
   end
+when "4"
+  say_wizard "You're using Rails version #{Rails::VERSION::STRING} -- Awesome"
 else
   say_wizard "You are using Rails version #{Rails::VERSION::STRING} which is not supported. Try 3.1 or newer."
   raise StandardError.new "Rails #{Rails::VERSION::STRING} is not supported. Try 3.1 or newer."
